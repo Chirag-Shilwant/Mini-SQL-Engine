@@ -24,7 +24,7 @@
     a. SELECT * FROM table1, table2 WHERE table1.col1=table2.col2;
     b. SELECT col1, col2 FROM table1, table2 WHERE table1.col1=table2.col2 and/or table1.col3=table2.col4; 
     ```
-    - Queries with group by and/or order by clause is handled
+    - Queries with **group by** and/or **order by** clause is handled
     - Basic Error Handling is done
   - ## **Execute**
     - run Mini-SQL-Engine from **python file** ``` python sql.py "<query>" ```
