@@ -15,7 +15,7 @@
       ```
   - ## **Queries**
     - **Select** all records: ``` SELECT * FROM table_name; ```
-    - **Aggregate** functions: ***sum, average, min, max*** ``` SELECT MAX(col) FROM table_name; ```
+    - **Aggregate** functions: ***sum, average, min, max, count*** ``` SELECT MAX(col) FROM table_name; ```
     - **Project** coloumns: ``` SELECT col FROM table_name; ```
     - Project with **distinct**: ``` SELECT DISTINCT col FROM table_name; ```
     - Select from **one or more tables**: ``` SELECT col1, col2 FROM table1, table2 WHERE col1=10 AND col2=20; ```
