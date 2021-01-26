@@ -19,10 +19,10 @@
     - **Project** coloumns: ``` SELECT col FROM table_name; ```
     - Project with **distinct**: ``` SELECT DISTINCT col FROM table_name; ```
     - Select from **one or more tables**: ``` SELECT col1, col2 FROM table1, table2 WHERE col1=10 AND col2=20; ```
-    - Projection from one or more from two tables with **one join condition**: 
+    - Projection from one or more from two tables with **one or two join condition**: 
     ```
     a. SELECT * FROM table1, table2 WHERE table1.col1=table2.col2;
-    b. SELECT col1, col2 FROM table1, table2 WHERE table1.col1=table2.col2; 
+    b. SELECT col1, col2 FROM table1, table2 WHERE table1.col1=table2.col2 and/or table1.col3=table2.col4; 
     ```
     - Queries with group by and/or order by clause is handled
     - Basic Error Handling is done
