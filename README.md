@@ -1,6 +1,6 @@
 # Mini-SQL-Engine
 
-  - ***Mini-SQL-Engine*** in ***Python*** which will run a subset of SQL Queries using command line interface.
+  - ***Mini-SQL-Engine*** is an SQL engine in ***Python*** which will run a subset of SQL Queries using command line interface.
   - ## **Dataset**
     - all elements in the fields would be ***integers*** only
     - if file is named ***table1.csv***, then the database table name would be ***table1***
